@@ -11,7 +11,7 @@ resource "aws_instance" "ec2_example" {
    instance_type = "t2.micro"
    
    tags = {
-           Name = "test -  EC2"
+           Name = "test - Terraform EC2"
    }
 }
 
