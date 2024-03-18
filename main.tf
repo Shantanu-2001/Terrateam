@@ -67,7 +67,7 @@ resource "aws_instance" "web" {
   iam_instance_profile   = aws_iam_instance_profile.example_profile.name
 
   tags = {
-    Name = "Jenkins-Instance"
+    Name = "Jenkins-instance"
   }
 
   root_block_device {
